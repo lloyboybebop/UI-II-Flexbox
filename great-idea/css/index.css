@@ -71,64 +71,52 @@ h1, h2, h3, h4, h5 {
 }
 
 header {
-    margin-bottom:40px;
-}
-
-.navbox {
-    flex-flow: row;
-    justify-content: center;
     display: flex;
-    justify-content: space-between;
-}
-
-header nav {
-    display: flex;
+    width: 880px;
+    vertical-align: top;
+    align-items: center;
+    margin-top: 40px;
     flex-flow: row;
+    justify-content: flex-start;
 }
 
-nav {
-    justify-content: space-around;
-    justify-content: space-between;
-    display:flex;
-}
-
-    nav ul {
-        display: flex;
-        flex-flow: row;
-        align-items: center;
+    header nav a {
+        margin-right: 65px;
+        font-size: 14px;
+        color: lightgray;
+        text-decoration: none;
     }
 
-    nav ul li {
-        display: flex;
-        
+    header nav a:hover {
+         text-decoration: underline;
     }
 
-
-header ul li:hover {
-    color: blue;
-    text-shadow: lightblue 0 0 2px;
-}
-
-.logo {
-   
-}
+    header .logo {
+        margin-left: 25px;
+    }
 
 .innovation {
-    flex-wrap: nowrap;
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
+    margin-top: 60px;
 }
 
 .slogan {
     display: flex;
-    flex-direction:column;
-    justify-content: space-around;
-    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    flex-direction: column;
 }
 
 h1 {
     font-size: 80px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
+}
+
+.slogan button {
+    color: whitesmoke;
+    justify-content: center;
+    margin-top: 10px;
 }
 
 .slogan a {
@@ -136,8 +124,7 @@ h1 {
     justify-content: center;
     text-decoration: none;
     padding: 6px 45px;
-    color: #000;
-    border: 1px solid #000;
+    color: black;
 }
 
     .slogan a:hover {
@@ -149,13 +136,17 @@ h1 {
 }
 
 .top-content {
-    flex-flow:row;
-    display:flex;
+    flex-flow: row;
+    display: flex;
+    margin-top: 40px;
+    padding-bottom: 30px;
+    justify-content: space-between;
+    border-bottom: 1px solid #000;
 }
 .top-info {
-    width: 49%;
-    flex-flow: row;
-    display:flex;
+    width: 50%;
+    flex-direction: column;
+    display: flex;
 }
 
 .toptitle {
@@ -165,30 +156,37 @@ h1 {
 img.img-middle {
     display: flex;
     justify-content:center;
-    margin-top:25px;
-    margin-bottom:25px;
+    margin-top: 30px;
 }
 
 .bottom-content {
-    margin-top: 25px;
-    margin-bottom: 25px;
+    margin-top: 30px;
+    margin-right: 10px;
+    padding-bottom: 30px;
     border-bottom: 1px solid #000;
     display: flex;
     flex-direction: row;
-    justify-content:center;
 }
 
 .bottom-info {
-   
+    width: 50%;
+    flex-direction: column;
+    display: flex;
+    margin-top: 30px;
 }
 
 .address {
     margin-bottom: 20px;
 }
 
+.contact {
+    margin-top: 60px;
+}
+
 .contact-link {
     text-decoration: none;
     color: #000;
+    margin-bottom: 20px;
 }
 
 contact-link:hover {
