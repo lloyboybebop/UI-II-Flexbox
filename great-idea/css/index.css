@@ -12,39 +12,44 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
-	display: block;
+    display: block;
 }
+
 body {
-	line-height: 1;
+    line-height: 1;
 }
+
 ol, ul {
-	list-style: none;
+    list-style: none;
 }
+
 blockquote, q {
-	quotes: none;
+    quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
+
+    blockquote:before, blockquote:after,
+    q:before, q:after {
+        content: '';
+        content: none;
+    }
+
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
 /* Set every element's box-sizing to border-box */
@@ -87,9 +92,9 @@ header {
         text-decoration: none;
     }
 
-    header nav a:hover {
-         text-decoration: underline;
-    }
+        header nav a:hover {
+            text-decoration: underline;
+        }
 
     header .logo {
         margin-left: 25px;
@@ -97,7 +102,7 @@ header {
 
 .innovation {
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     margin-top: 60px;
 }
 
@@ -143,6 +148,7 @@ h1 {
     justify-content: space-between;
     border-bottom: 1px solid #000;
 }
+
 .top-info {
     width: 50%;
     flex-direction: column;
@@ -155,7 +161,7 @@ h1 {
 
 img.img-middle {
     display: flex;
-    justify-content:center;
+    justify-content: center;
     margin-top: 30px;
 }
 
@@ -198,3 +204,75 @@ footer {
     margin: 50px;
     font-size: 13px;
 }
+
+/* Services Page */
+.services-header-img {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    max-width: 880px;
+}
+
+.services-description {
+    padding-bottom: 30px;
+    border-bottom: 1px solid #000;
+    margin-top: 35px;
+    margin-bottom: 10px;
+}
+
+.details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #000;
+}
+
+    .details div {
+        background-color: whitesmoke;
+        border: 1px solid #000;
+        padding: 25px;
+        width: 400px;
+        margin-top: 35px;
+    }
+
+    .details p {
+        margin-bottom: 30px;
+    }
+
+    .details div a {
+        width: 180px;
+        border: 1px solid #000;
+        padding: 10px;
+        text-align: center;
+        background: whitesmoke;
+        color: #000;
+        text-decoration: none;
+        margin-top: 40px;
+        border-radius: 4px;
+    }
+
+.facts {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+}
+
+    .facts div {
+        width: 400px;
+        background: white;
+        border: hidden;
+    }
+
+    .facts ul {
+        list-style-type: square;
+        margin: 25px 0 0 20px;
+    }
+
+        .facts ul li {
+            margin-top: 15px;
+        }
+
+    .facts img {
+        margin-left: 60px;
+    }
