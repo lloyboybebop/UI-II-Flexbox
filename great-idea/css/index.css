@@ -256,12 +256,14 @@ footer {
     display: flex;
     align-items: center;
     margin-top: 40px;
+    
 }
 
     .facts div {
         width: 400px;
         background: white;
         border: hidden;
+        flex: 0.5;
     }
 
     .facts ul {
@@ -274,5 +276,6 @@ footer {
         }
 
     .facts img {
-        margin-left: 60px;
+        flex: 0.5;
+        margin-left: 35px;
     }
